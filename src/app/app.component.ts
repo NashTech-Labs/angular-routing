@@ -7,7 +7,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular-routing';
   userId = 2;
   constructor(private router: Router) {}
   login() {
